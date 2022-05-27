@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="menu">
+        <button class="white btn-add" id="add-contact">Nuevo Contacto</button>
+    </nav>
+
+    <h1 class="title">Agenda de contactos</h1>
+    <div class="contacts-container" id="contacts-list">
+    </div>
+    
+    <div class="add-contact-container" id="addContactContainer">
+        <div class="add-contact-modal">
+            <div id="closeAddContact" class="close-Add-Contact"> <button class="btn-close">X</button>  </div>
+            <form id="newContact">
+                <h1>Nuevo Contacto</h1>
+                <input type="text" name="nombre" autocomplete="off" placeholder="Nombre">
+                <input type="text" name="apellido" autocomplete="off" placeholder="Apellido">
+                <input type="text" name="telefono" autocomplete="off" placeholder="Teléfono">
+                <button type="submit" class="black btn-submit">Guardar Contacto</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script type="module" src="js/index.js"></script>
+</html>

@@ -1,0 +1,34 @@
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.contact-grid {
+    margin-top: 5px;
+    display: flex;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    width: 70%;
+}
+
+.contact-grid img {
+    width: 10%;
+    height: 90px;
+}
+
+.contact-grid .icon {
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+}
+
+.contact-name {
+    font-size: 20px;
+} 
