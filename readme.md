@@ -18,10 +18,10 @@ contactos a su agenda.
 ## Capturas de pantalla
 
 ### Ver lista de contactos
-![Lista de contactos](Lista-Contactos.png)
+![Lista de contactos](img/Lista-Contactos.png)
 
 ### Guardar un nuevo contacto
-![Guardar Nuevo Contacto](nuevo-contacto.png)
+![Guardar Nuevo Contacto](img/nuevo-contacto.png)
 
 ### Ver el contacto guardado
-![Contacto-guardado](Contacto-guardado.png)
+![Contacto-guardado](img/Contacto-guardado.png)

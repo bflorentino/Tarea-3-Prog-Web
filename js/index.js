@@ -76,7 +76,7 @@ const setContact = (contact) => {
     const contactPhoneIcon = document.createElement('img');
     
     contactAvatar.src = setAvatarToContact({name: contact.nombre[0], lname: contact.apellido[0]})
-    contactPhoneIcon.src = '../Phone.png';
+    contactPhoneIcon.src = '../img/Phone.png';
     contactPhone.innerHTML = `${contact.telefono}`
     contactGrid.classList.add('contact-grid');
     contactName.classList.add('contact-name');
